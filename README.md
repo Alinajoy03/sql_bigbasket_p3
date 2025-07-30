@@ -3,32 +3,35 @@ Project Overview
 This is a project based on an e-commerce inventory dataset scraped from Zepto — one of India’s fastest-growing quick-commerce startups. This project simulates real analyst workflows, from raw data exploration to business-focused data analysis.
 
 Dataset Overview
+
 The dataset was sourced from Kaggle and was originally scraped from Zepto’s official product listings.Each row represents a unique SKU (Stock Keeping Unit) for a product. Duplicate product names exist because the same product may appear multiple times in different package sizes, weights, discounts, or categories to improve visibility – exactly how real catalog data looks.
+
 
 🧾 Columns:
 
-sku_id: Unique identifier for each product entry (Synthetic Primary Key)
+1. sku_id: Unique identifier for each product entry (Synthetic Primary Key)
 
-name: Product name as it appears on the app
+2. name: Product name as it appears on the app
 
-category: Product category like Fruits, Snacks, Beverages, etc.
+3. category: Product category like Fruits, Snacks, Beverages, etc.
 
-mrp: Maximum Retail Price (originally in paise, converted to ₹)
+4. mrp: Maximum Retail Price (originally in paise, converted to ₹)
 
-discountPercent: Discount applied on MRP
+5. discountPercent: Discount applied on MRP
 
-discountedSellingPrice: Final price after discount (also converted to ₹)
+6. discountedSellingPrice: Final price after discount (also converted to ₹)
 
-availableQuantity: Units available in inventory
+7. availableQuantity: Units available in inventory
 
-weightInGms: Product weight in grams
+8. weightInGms: Product weight in grams
 
-outOfStock: Boolean flag indicating stock availability
+9. outOfStock: Boolean flag indicating stock availability
 
-quantity: Number of units per package (mixed with grams for loose produce)
+10. quantity: Number of units per package (mixed with grams for loose produce)
 
 
 Questions 
+
 
 Data Exploration
 1. Counted the total number of records in the dataset
