@@ -9,6 +9,7 @@ The dataset was sourced from Kaggle and was originally scraped from Zepto’s of
 
 🧾 Columns:
 
+
 1. sku_id: Unique identifier for each product entry (Synthetic Primary Key)
 
 2. name: Product name as it appears on the app
@@ -30,11 +31,13 @@ The dataset was sourced from Kaggle and was originally scraped from Zepto’s of
 10. quantity: Number of units per package (mixed with grams for loose produce)
 
 
+
 Questions 
 
 
 
 Data Exploration
+
 
 
 1. Counted the total number of records in the dataset
@@ -51,12 +54,14 @@ Data Exploration
 
  Data Cleaning
 
+
  
 7. Identified and removed rows where MRP or discounted selling price was zero
 
 8. Converted mrp and discountedSellingPrice from paise to rupees for consistency and readability
 
 Business Insights
+
 
 
 9. Found top 10 best-value products based on discount percentage
@@ -77,6 +82,7 @@ Business Insights
 
 
 Queries 
+
 
 
 
