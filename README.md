@@ -33,7 +33,10 @@ The dataset was sourced from Kaggle and was originally scraped from Zepto’s of
 Questions 
 
 
+
 Data Exploration
+
+
 1. Counted the total number of records in the dataset
 
 2. Viewed a sample of the dataset to understand structure and content
@@ -47,11 +50,15 @@ Data Exploration
 6. Detected products present multiple times, representing different SKUs
 
  Data Cleaning
+
+ 
 7. Identified and removed rows where MRP or discounted selling price was zero
 
 8. Converted mrp and discountedSellingPrice from paise to rupees for consistency and readability
 
 Business Insights
+
+
 9. Found top 10 best-value products based on discount percentage
 
 10. Identified high-MRP products that are currently out of stock
@@ -70,6 +77,8 @@ Business Insights
 
 
 Queries 
+
+
 
 DATABASE CREATION 
 ```sql
